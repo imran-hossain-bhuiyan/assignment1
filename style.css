@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ==================================
+         Banner-part Start
+====================================== */
+
+#banner-part{
+    display: flex;
+}
+
+#banner-part .text_part{
+    margin:50px 70px;
+    width: 50%;
+}
+
+#banner-part .text_part h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    margin: 10px 0;
+    padding-left: 12px;
+}
+
+
+#banner-part .text_part .border{
+    border-left: 5px solid rgb(138, 86, 38);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#banner-part .text_part .color{
+    color: #8400fff6;
+}
+
+#banner-part .text_part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 550px;
+    margin: 30px 0;
+}
+
+
+#banner-part .text_part .scroll_text{
+    color: #313131;
+}
+
+#banner-part .text_part a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(10deg,rgba(111, 0, 255, 0.692),rgba(38, 0, 128, 0.959),rgba(162, 0, 255, 0.897));
+    border-radius: 6px;
+    color: rgb(196, 195, 195);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#banner-part .img{
+    width: 50%;
+}
+
+#banner-part .img img{
+    width: 80%;
+    margin-left: 50px;
+}
+
+
+/* ==================================
+         Banner-part End
+====================================== */
+
+
+/* ==================================
+         Mission-part start
+====================================== */
+
+#mission-part{
+
+}
+
+#mission-part h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    padding-left: 12px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+#mission-part .year{
+    color: rgba(111, 0, 255, 0.692);
+}
+
+#mission-part .parrents{
+    justify-content: space-around;
+    display: flex;
+    margin: 50px 40px;
+}
+
+#mission-part .parrents .common{
+    width: 24%;
+    padding: 30px 20px;
+    border-radius: 20px;
+}
+
+#mission-part .parrents .common img{
+    width: 45%;
+}
+
+#mission-part .parrents .common h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+#mission-part .parrents .common p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #252525;
+}
+
+#mission-part .parrents .mission{
+    background: rgba(111, 0, 255, 0.192);
+}
+
+#mission-part .parrents .vision{
+    background: rgba(4, 0, 255, 0.171);
+}
+
+#mission-part .parrents .goal{
+    background: rgba(81, 255, 0, 0.178);
+}
+
+/* ==================================
+         Mission-part End
+====================================== */
+
+
+/* ==================================
+         developer-part Start
+====================================== */
+
+#developer-part{
+   
+    background: url(./images/shape-1.png)no-repeat left;
+    background-size: 220px;
+    background-position-x: 20px
+    ;
+}
+
+#developer-part .main{
+    display: flex;
+    margin: 100px 80px;
+}
+
+#developer-part .img-part{
+    width: 30%;
+}
+
+#developer-part img{
+    width: 100%;
+}
+
+#developer-part .text-part{
+    width: 50%;
+    margin-left: 50px;
+}
+
+
+#developer-part .text-part h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 50px 0;
+}
+
+
+#developer-part .text-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+#developer-part .text-part a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(18deg,rgba(111, 0, 255, 0.692),rgba(38, 0, 128, 0.959),rgba(162, 0, 255, 0.897));
+    border-radius: 6px;
+    color: rgb(218, 214, 214);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ==================================
+         developer-part End
+====================================== */
+
+
+/* ==================================
+         Community-part Start
+====================================== */
+
+
+#community-part{
+   
+    background: url(./images/shape-1.png)no-repeat;
+    background-position: right;
+    background-size: 220px;
+    background-position-y: 225px;
+    background-position-x: 990px;
+    padding-bottom: 100px;
+}
+
+#community-part .main{
+    display: flex;
+    margin: 100px 80px;
+}
+
+#community-part .img-part{
+    width: 30%;
+    margin-left: 80px;
+}
+
+#community-part img{
+    width: 100%;
+}
+
+#community-part .text-part{
+    width: 50%;
+}
+
+
+#community-part .text-part h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 50px 0;
+}
+
+
+#community-part .text-part p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+#community-part .text-part a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(18deg,rgba(111, 0, 255, 0.692),rgba(38, 0, 128, 0.959),rgba(162, 0, 255, 0.897));
+    border-radius: 6px;
+    color: rgb(218, 214, 214);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+/* ==================================
+         Community-part End
+====================================== */
