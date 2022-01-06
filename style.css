@@ -278,3 +278,138 @@
 /* ==================================
          Community-part End
 ====================================== */
+
+
+/* ==================================
+         Service-part Start
+====================================== */
+
+#service-part h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #313131;
+    text-align: center;
+}
+
+
+#service-part h1{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#service-part .main{
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#service-part .main .service{
+    width: 30%;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+#service-part .main .purple_color{
+    background: rgba(66, 0, 128, 0.158);
+}
+
+
+#service-part .main .green_color{
+    background: rgba(0, 128, 111, 0.158);
+}
+
+
+#service-part .main .yellow_color{
+    background: rgba(128, 94, 0, 0.158);
+}
+
+
+#service-part .main .service .left_img{
+    width: 20%;
+    padding: 20px 0px 15px 15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#service-part .main .service .purple{
+    background: rgba(32, 4, 133, 0.199);
+}
+
+#service-part .main .service .green{
+    background: rgba(0, 119, 128, 0.226);
+}
+
+#service-part .main .service .yellow{
+    background: rgba(94, 128, 0, 0.26);
+}
+
+#service-part .main .service .left_img img{
+    margin-top: 35px;
+}
+
+#service-part .main .service .right_text{
+    width: 75%;
+    margin-left: 10px;
+    padding: 20px 10px 15px 15px;
+}
+
+#service-part .main .service .right_text h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+    padding: 5px;
+}
+
+
+#service-part .main .service .right_text p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #313131;
+}
+
+
+/* ==================================
+         Service-part End
+====================================== */
+
+
+/* ==================================
+         Footer-part Start
+====================================== */
+
+footer{
+    text-align: center;
+    background: black;
+    margin-top: 100px;
+    padding: 30px 0;
+}
+
+footer h2{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgb(209, 209, 209);
+}
+
+footer .year{
+    color: rgba(234, 0, 255, 0.623);
+}
+
+footer p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8d8c8c;
+}
+
+/* ==================================
+         Footer-part End
+====================================== */
